@@ -6,7 +6,7 @@ function compute(){
     
     document.getElementById("deposit").innerHTML = p;
     document.getElementById("rate").innerHTML = r.toString() + '%';
-    document.getElementById("amount").innerHTML = parseFloat(p) + parseFloat(interest);
+    document.getElementById("amount").innerHTML = parseFloat(p);
     document.getElementById("end-year").innerHTML = parseInt(2021) + parseInt(t);
 }
 
